@@ -1,0 +1,116 @@
+body{
+	background-image:url("../images/cover_large_p1b1h46tngk8u4lk1qd715a1ir53.jpg");
+	background-repeat: no-repeat;
+}
+
+
+.wrapper {
+	background: #CCC;
+	filter:alpha(opacity=60); /* IE */
+	-moz-opacity:0.6; /* Mozilla */
+	opacity: 0.9; /* CSS3 */;
+	height:450px;
+	margin-top:20px;
+	z-index: 0;
+}
+
+.timer{
+
+	text-align:center;
+}
+
+.left-mod {
+	text-align:left;
+	margin-left:400px;
+}
+
+.triviaResults {
+	 margin: 0 auto;
+}
+
+
+
+
+.timerNumber {
+ border-radius: 50%;
+  behavior: url(PIE.htc);
+  /* remove if you don't care about IE8 */
+  width: 60px;
+  height: 60px;
+  padding: 9px;
+  background: #fff;
+  border: 2px solid #666;
+  color: #666;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+  margin:20px auto;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin: 4px 8px 0;
+
+}
+.question{
+	font-weight: Bolder;
+	font-size:18px;
+}
+.answers {
+    margin-bottom: 20px;
+}
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #297;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: #3a8;
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.actualResults {
+	background-color:black;
+	color:white;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
